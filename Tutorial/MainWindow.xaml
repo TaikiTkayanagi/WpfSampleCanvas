@@ -1,0 +1,114 @@
+﻿<Window x:Class="Tutorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tutorial"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="100" />
+        </Grid.RowDefinitions>
+        <Canvas Grid.Row="0" Width="800" x:Name="myCanvas">
+            <Rectangle Width="800" Height="100" Fill="Yellow"/>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M -130,0 L -60,100 L 0,100 L -70,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M -20,0 L 50,100 L 110,100 L 40,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 90,0 L 160,100 L 220,100 L 150,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 200,0 L 270,100 L 330,100 L 260,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 310,0 L 380,100 L 440,100 L 370,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 420,0 L 490,100 L 550,100 L 480,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform> 
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 530,0 L 600,100 L 660,100 L 590,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 640,0 L 710,100 L 770,100 L 700,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 750,0 L 800,70 L 800,100 L 800,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+        </Canvas>
+        <Canvas x:Name="myCanvas2" Grid.Row="3" Width="800">
+            <Rectangle Width="800" Height="100" Fill="Yellow"/>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M -130,0 L -60,100 L 0,100 L -70,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M -20,0 L 50,100 L 110,100 L 40,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 90,0 L 160,100 L 220,100 L 150,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 200,0 L 270,100 L 330,100 L 260,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 310,0 L 380,100 L 440,100 L 370,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 420,0 L 490,100 L 550,100 L 480,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 530,0 L 600,100 L 660,100 L 590,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 640,0 L 710,100 L 770,100 L 700,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+            <Path Stroke="Black" Fill="Black" StrokeThickness="3" Data="M 750,0 L 800,70 L 800,100 L 800,0 Z">
+                <Path.RenderTransform>
+                    <TranslateTransform X="0" Y="0" />
+                </Path.RenderTransform>
+            </Path>
+        </Canvas>
+    </Grid>
+</Window>
